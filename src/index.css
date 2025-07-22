@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: font-Semibold;
+  src: url(./assets/Onest-SemiBold.ttf);
+}
+@font-face {
+  font-family: font-bold;
+  src: url(./assets/Onest-Bold.ttf);
+}
+@font-face {
+  font-family: font;
+  src: url(./assets/Onest-Regular.ttf);
+}
+@font-face {
+  font-family: font-bina;
+  src: url(./assets/BinateDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: font-clash;
+  src: url(./assets/ClashDisplay-Variable.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html , body {
+  height: 100%;
+  width: 100%;
+}
+.hero{
+  background-image: url(./assets/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
